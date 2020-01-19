@@ -1,68 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Steps to execute:
 
-## Available Scripts
+1. It is assumed that the system is having node >=10 and npm >=6 installed.
+2. Now make a folder in any directory, eg: User/Desktop/ReactApp
+3. Now install npm install create-react-app -g for installing React or it is
+   good if it is preinstall.
+4. Now create a react demo app using create-react-app: User/Desktop/ReactApp>
+   npx install create-react-app demo-app.
+5. Now, cd demo-app and run "npm start" and checks it is opening react 
+   application on port 3000.
+6. Unzip the downloaded folder and copy the folder under the name todoApp to 
+   the same folder where you have created reactApp. i.e; User/Desktop/ReactApp> ls -l
+   demo-app and todoApp folder should be there.
+7. Now copy the node_modules folder from demo-app to todoApp folder.
+8. After copying, install below two dependencies in the todoApp directory:
+	User/Desktop/ReactApp/todoApp> npm install react-router-dom
+	User/Desktop/ReactApp/todoApp> npm install react-minimal-pie-chart
+9.  Now run 
 
-In the project directory, you can run:
+	User/Desktop/ReactApp/todoApp> npm start
 
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+	App will open on localhost:3000
